@@ -1,0 +1,35 @@
+body {
+  padding: 10px;
+}
+h1,
+h2,
+h3 {
+  color: rgb(3, 115, 119);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(4, 186, 193);
+  border-radius: 5px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.addButton {
+  width: 50px;
+  margin: 20px auto;
+  border: none;
+  background-color: rgb(31, 228, 224);
+  border-radius: 8px;
+  padding: 4px;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+}
+.addButton:hover {
+  background-color: rgb(27, 192, 190);
+}
